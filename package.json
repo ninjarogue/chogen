@@ -1,0 +1,10 @@
+{
+  "name": "chogen",
+  "version": "0.1.0",
+  "description": "Pi skills for maintainable, checkable agent-driven design",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "skills": ["./skills"]
+  }
+}
