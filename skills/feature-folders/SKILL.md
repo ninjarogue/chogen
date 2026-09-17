@@ -5,9 +5,11 @@ description: Use when laying out or reviewing repo folders so agents can find a 
 
 # Feature folders
 
-One folder = one user-facing capability.
+One folder = one named capability an agent or user can reach and drive.
 
-Open that folder and the whole story should be there: the public door, the rules, the checks, and the local notes that matter. An agent should not need a scavenger hunt.
+For behavior inventory / four questions (what exists, how you reach it, how to drive it, what usually lies), use `feature-files`. This skill is folder layout only.
+
+Open that folder and the whole story should be there: the public door, the rules, the checks, and the local notes that matter. An agent should not need a scavenger hunt. Prefer checks and a driver that prove the capability live in or next to that folder.
 
 ## Do
 
