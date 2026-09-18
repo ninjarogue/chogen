@@ -5,28 +5,35 @@ description: Use when reviewing shape — reject folder theater, unclear doors, 
 
 # What to reject
 
-When reviewing shape, say no to these. Sibling skills name the yes path — don’t paste their recipes here.
+Stop and redesign when you see these. This skill is the “no” list only — sibling skills name the yes path.
 
 ## Folder theater
 
-Pretty trees that don’t put one capability in one place. Reject `utils/` / `helpers/` junk drawers and layouts that force scavenger hunts. Layout yes → `feature-folders`.
+Fancy layers that still don’t hide complexity. More folders instead of clearer doors. Reject layout that looks organized but leaves agents hunting. Folders yes → `feature-folders`.
 
 ## Unclear doors
 
-Shallow pass-throughs, doors that need escape hatches everywhere, modules with two reasons to exist. Door yes → `deep-modules`.
+Shallow pass-throughs. Escape hatches everywhere. A door that doesn’t keep the caller dumb. Doors yes → `deep-modules`.
 
 ## Unverified “works”
 
-Green unit tests alone, paper designs with no live run, “it should work” without create→use→finish through the door. Proof yes → `live-run-proof`.
+“It works” with no way to verify — no live proof, no create→use→finish through the door. Proof yes → `live-run-proof`.
 
 ## Cross-cutting helpers
 
-Shared code invented for convenience, not because two features share a deep idea. Inventory that restates schema/API instead of non-obvious reach, drive, and lies. Inventory yes → `feature-files`.
+Shared `utils` / helpers every agent must rediscover. Convenience sharing that isn’t a real deep idea. Inventory yes → `feature-files`.
 
 ## Drift
 
-Behavior or UI moved; the feature file, checks, or door contract didn’t. Stale paths and false greens left in “what usually lies.”
+Stale feature map or inventory out of date with behavior. When the gardener finds drift, fix the inventory in the same change (or a maintain pass), don’t leave false greens.
+
+## Pointers
+
+- Deep doors → `deep-modules`
+- Folders → `feature-folders`
+- Inventory → `feature-files`
+- How to prove → `live-run-proof`
 
 ## Check
 
-Would you reject this for one of the above — or does a sibling skill already name the fix?
+Is this a reject from the list above — or does a sibling skill already name the fix?
